@@ -26,14 +26,6 @@ public class FancyConsole
         {
             NCurses.InitPair(GetColorCode(c), GetCursesColor(c), CursesColor.BLACK);
         }
-        
-    //     RED,
-    // BLUE,
-    // GREEN,
-    // CYAN,
-    // MAGENTA,
-    // YELLOW,
-    // WHITE
     }
 
     public static void SetColor(FancyColor color)
